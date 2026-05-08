@@ -5,11 +5,11 @@ A full-stack Netflix homepage clone built with React.js and TMDB API, featuring 
 ## 📸 Project Showcase
 
 ### **1. Netflix Clone UI**
-![Netflix Clone UI](assets/netflix-ui.png)
+![Netflix Clone UI](./assets/netflix-ui.png)
 *Fully responsive Netflix homepage with dynamic banner, category rows, and embedded YouTube trailer player*
 
 ### **2. Analytics Dashboard** 
-![Analytics Dashboard](assets/analytics-dashboard.png)
+![Analytics Dashboard](./assets/analytics-dashboard.png)
 *Data visualization dashboard showing Top 10 Trending by Rating and Genre Distribution analysis*
 
 ## 🚀 Live Demo
