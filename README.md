@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# 🎬 Netflix Clone + Analytics Pro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack Netflix homepage clone built with React.js and TMDB API, featuring real-time movie data, YouTube trailer integration, and a custom analytics dashboard for content insights.
 
-## Available Scripts
+## 📸 Project Showcase
 
-In the project directory, you can run:
+### **1. Netflix Clone UI**
+![Netflix Clone UI](./assets/netflix-ui.png)
+*Fully responsive Netflix homepage with dynamic banner, category rows, and embedded YouTube trailer player*
 
-### `npm start`
+### **2. Analytics Dashboard** 
+![Analytics Dashboard](./assets/analytics-dashboard.png)
+*Data visualization dashboard showing Top 10 Trending by Rating and Genre Distribution analysis*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Live Demo
+[Deploy on Netlify] - Coming Soon
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Core Features
 
-### `npm test`
+### **Netflix Clone**
+- **Dynamic Banner** - Fetches random Netflix Original on every refresh from TMDB API
+- **YouTube Trailer Integration** - Play button fetches official trailers via TMDB `/videos` endpoint
+- **Movie Categories** - Netflix Originals, Trending Now, Top Rated, Action, Comedy, Horror
+- **Crash-Free Playback** - Error handling for missing trailers + initial load protection
+- **Netflix-Style UI** - Hover effects, fade animations, responsive grid layout
+- **Real-Time Data** - Live movie posters, ratings, and descriptions from TMDB
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Analytics Pro Dashboard**
+- **Top 10 Trending by Rating** - Bar chart of highest rated movies/shows
+- **Genre Distribution** - Pie chart breakdown: Drama, Action, Animation, Sci-Fi, etc.
+- **Key Insights Engine** - Auto-calculates: Total analyzed, Highest rated, Most common genre
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Technology | Purpose |
+| --- | --- |
+| **React.js** | Frontend framework with Hooks |
+| **Axios** | HTTP client for TMDB API calls |
+| **TMDB API** | Movie database + YouTube trailer keys |
+| **react-youtube** | Embedded video player |
+| **CSS3** | Custom styling + Netflix animations |
+| **Recharts/Chart.js** | Data visualization for analytics |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Quick Start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone repository**
+```bash
+git clone https://github.com/akas1234-design/netflix-clone-react.git
+cd netflix-clone-react
