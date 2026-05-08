@@ -13,7 +13,7 @@ A full-stack Netflix homepage clone built with React.js and TMDB API, featuring 
 *Data visualization dashboard showing Top 10 Trending by Rating and Genre Distribution analysis*
 
 ## 🚀 Live Demo
-[Deploy on Netlify] - Coming Soon
+[Netflix Clone Live](boisterous-banoffee-b0a319.netlify.app)
 
 ## ✨ Core Features
 
