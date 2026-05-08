@@ -13,7 +13,7 @@ A full-stack Netflix homepage clone built with React.js and TMDB API, featuring 
 *Data visualization dashboard showing Top 10 Trending by Rating and Genre Distribution analysis*
 
 ## 🚀 Live Demo
-[Netflix Clone Live](streamlix-akash.netlify.app)
+[Netflix Clone Live](https://streamlix-akash.netlify.app)
 
 ## ✨ Core Features
 
